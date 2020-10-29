@@ -22,4 +22,15 @@
 		maxActive="500"
 		maxIdle="100"
 	/>
+	<Resource 
+		name="jdbc/ms" 
+		auth="Container" 
+		type="javax.sql.DataSource" 
+		username="root" password="yt1234"
+		driverClassName="com.mysql.cj.jdbc.Driver"
+		factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"
+		url="jdbc:mysql://localhost:3306/managersystem?useUnicode=true&amp;characterEncoding=UTF8&amp;useJDBCCompliantTimezoneShift=true&amp;useLegacyDatetimeCode=false&amp;serverTimezone=Asia/Seoul"
+		maxActive="500"
+		maxIdle="100"
+	/>
 </Context>
